@@ -1,0 +1,7 @@
+.listDiv {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid white;
+}

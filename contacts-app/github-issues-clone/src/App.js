@@ -1,9 +1,12 @@
 import IssueList from "./components/IssueList";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <IssueList />
+      <div className="listContainer">
+        <IssueList />
+      </div>
     </div>
   );
 }

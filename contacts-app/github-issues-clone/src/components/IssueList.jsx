@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Issue from "./Issue.jsx";
+import "./IssueList.css";
 
 function IssueList() {
   const [issues, setIssues] = useState([]);
@@ -20,7 +21,7 @@ function IssueList() {
   }, []);
 
   return (
-    <div>
+    <div class="listDiv">
       {issues.map((issue) => {
         return <Issue key={issue.id} issue={issue} />;
       })}

@@ -1,0 +1,20 @@
+.issueBox {
+  padding-left: 20px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 1px solid white;
+}
+
+.issueTitle {
+  color: rgba(255, 255, 255, 0.818);
+  font-size: 20px;
+}
+
+.otherIssueStuff {
+  color: rgba(255, 255, 255, 0.667);
+  font-size: 15px;
+}
+
+.issueBox:hover {
+  background-color: rgb(72, 72, 72);
+}
